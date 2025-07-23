@@ -25,3 +25,41 @@ Kami memutuskan untuk mencari tahu apakah prediksi harga berdasarkan kapasitas b
 Pada tahap pembangunan model, proses dimulai dengan preprocessing data. Berdasarkan hasil Exploratory Data Analysis (EDA), kami menemukan adanya outlier, namun nilai-nilai tersebut masih tergolong masuk akal dalam konteks kendaraan listrik, sehingga tidak dihapus dari dataset. Selain itu, analisis korelasi menggunakan Pearson correlation menunjukkan bahwa variabel Kapasitas Baterai (kWh) memiliki korelasi positif dengan Harga (Rp), dengan nilai korelasi absolut yang tergolong tinggi. Di sisi lain, variabel Efisiensi (Wh/km) juga menunjukkan korelasi positif terhadap harga, namun dengan nilai korelasi absolut yang lebih rendah dibandingkan dengan kapasitas baterai. Temuan ini mengindikasikan bahwa kapasitas baterai memiliki pengaruh yang lebih dominan terhadap harga EV dibandingkan efisiensi energi.
 
 Model yang dibangun adalah Linear Regression dan Decision Tree Regressor, dengan konfigurasi terbaik menggunakan criterion = "entropy", max_depth = 3, dan min_samples_leaf = 5. Model ini mencapai akurasi tertinggi sebesar 83% dan Mean Squared Error (MSE) sebesar 0.4.
+
+## Graduation Night: BREATHIFY
+### Problem Definition
+**Objective:** Significantly reduce air pollution levels in the Greater Jakarta (Jabodetabek) area and mitigate its adverse impacts on public health, the environment, and the economy.
+**Main Problem Identified:** 
+- Low public engagement and action
+- Lack of effective public policy implementation
+- Uncontrolled industrial and commercial emissions
+**Root Cause:** Low public awareness and insufficient understanding of pollution sources and climate issues.
+### Problem Validation
+The data team conducted a multi-source analysis to validate the root problem using both expert data and public perception.
+#### Discrepancy in Pollution Source Perception vs. Reality
+KLHK (Indonesian Ministry of Environment and Forestry) reports the main sources of air pollution are:
+1. Transportation
+2. Industrial Energy
+3. Commercial, Residential, and Manufacturing (equal contribution)
+Katadata (Public Perception Survey) shows the public believes air pollution is primarily caused by:
+1. Vehicle Emissions
+2. Waste Burning
+3. Cigarette Smoke
+4. Forest Fires
+5. Coal Power Plants
+6. Building Construction
+7. Household Emissions
+8. Others
+9. Don’t Know
+**_Insight:_** This clear mismatch between actual and perceived sources of air pollution reveals a significant lack of public awareness.
+#### Supporting Data on Emission Sources
+**Vehicle Ownership (BPS 2020–2022):**
+- Motorcycles: 79.5%
+- Passenger Cars: 16.9%
+- Trucks: 3.4%
+- Buses: 0.0002%
+**Waste Management (2022)**
+- The most common method among the public is open burning, a major contributor to air pollution.
+**Forest Fire Data (2019–2022)**
+According to GlobalForestWatch, more than 25,000 hectares are affected by forest fires annually in Indonesia.
+### Climate Change Awareness Survey
