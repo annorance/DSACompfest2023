@@ -35,50 +35,15 @@ Model yang dibangun adalah Linear Regression dan Decision Tree Regressor, dengan
 - Uncontrolled industrial and commercial emissions
 **Root Cause:** Low public awareness and insufficient understanding of pollution sources and climate issues.
 ### Problem Validation
-The data team conducted a multi-source analysis to validate the root problem using both expert data and public perception.
-#### Discrepancy in Pollution Source Perception vs. Reality
-KLHK (Indonesian Ministry of Environment and Forestry) reports the main sources of air pollution are:
-1. Transportation
-2. Industrial Energy
-3. Commercial, Residential, and Manufacturing (equal contribution)
-Katadata (Public Perception Survey) shows the public believes air pollution is primarily caused by:
-1. Vehicle Emissions
-2. Waste Burning
-3. Cigarette Smoke
-4. Forest Fires
-5. Coal Power Plants
-6. Building Construction
-7. Household Emissions
-8. Others
-9. Don’t Know
-    
-**_Insight:_** This clear mismatch between actual and perceived sources of air pollution reveals a significant lack of public awareness.
-#### Supporting Data on Emission Sources
-**Vehicle Ownership (BPS 2020–2022):**
-- Motorcycles: 79.5%
-- Passenger Cars: 16.9%
-- Trucks: 3.4%
-- Buses: 0.0002%
-**Waste Management (2022)**
-- The most common method among the public is open burning, a major contributor to air pollution.
-**Forest Fire Data (2019–2022)**
-According to GlobalForestWatch, more than 25,000 hectares are affected by forest fires annually in Indonesia.
+In the problem validation stage, our data team conducted a multi-source analysis to examine the root causes by incorporating both expert data and public perception.
 
-#### Climate Change Awareness Survey
-_Source: Data for Good at Meta and Yale Program on Climate Change Communication (2022)_
--Public Knowledge on Climate Change
-  - Little knowledge: 50.2%
-  - A lot: 16.5%
-  - Never heard of it: 15.6%
-- Cause Perception: Most respondents believe climate change is caused by both human activity and nature.
-- Perceived Severity: Majority say the impact is moderate.
-- Global Perception: Surveyed countries (South Africa, South America, Australia, Brazil, China, India) agree that environmental issues pose serious problems. Only India and USA indicated that environmental protection is not a top priority.
-  
-#### PM2.5 Air Quality Data (Jan–Aug 2023)
-_Location: Ancol, Angkasa Kemayoran, Regatta The Icon, Galur, LTC Glodok_
-- PM2.5 levels have shown a sharp increase in the past eight months.
-- Urgent action is required to curb this rise.
+There is a clear discrepancy between public perception and actual sources of air pollution. According to official data from the Indonesian Ministry of Environment and Forestry (KLHK), the main contributors to air pollution are transportation, followed by industrial energy, and equal contributions from the commercial, residential, and manufacturing sectors. However, a public perception survey by Katadata reveals that people believe the top sources of air pollution are vehicle emissions, open waste burning, cigarette smoke, forest fires, coal power plants, building construction, and household emissions. Some respondents listed other causes or admitted not knowing. This gap indicates a significant lack of public awareness and knowledge regarding the true sources of air pollution.
 
+To support this analysis, we also collected additional data related to emission sources. According to Statistics Indonesia (BPS) from 2020 to 2022, vehicle ownership in Jakarta is dominated by motorcycles at 79.5%, followed by passenger cars (16.9%), trucks (3.4%), and buses with a negligible percentage (0.0002%). Meanwhile, data on waste management in 2022 shows that the most common method used by the public is open burning, a major contributor to air pollution. Forest fire data from GlobalForestWatch indicates that over 25,000 hectares of land in Indonesia are affected by wildfires each year from 2019 to 2022.
+
+To assess public awareness of climate change, we referred to the Data for Good initiative by Meta and the Yale Program on Climate Change Communication (2022). The survey found that 50.2% of respondents had little knowledge of climate change, 16.5% reported knowing a lot, and 15.6% had never heard of it. Most respondents believed that climate change is caused by both human activity and nature, with the perceived severity being moderate. In a global context, countries like South Africa, South America, Australia, Brazil, China, and India largely acknowledged that environmental problems are serious. However, only India and the United States indicated that environmental protection is not considered a top priority.
+
+Finally, PM2.5 air quality data from January to August 2023 in areas such as Ancol, Angkasa Kemayoran, Regatta The Icon, Galur, and LTC Glodok showed a sharp increase in pollution levels. This alarming trend reinforces the urgent need to take action to curb the worsening air quality.
 ### Proposed Solution: Breathify
 Breathify is a mobile application designed as a community engagement tool to tackle air pollution through behavioral change and awareness-building.
 
