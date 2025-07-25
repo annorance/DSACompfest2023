@@ -51,6 +51,7 @@ Katadata (Public Perception Survey) shows the public believes air pollution is p
 7. Household Emissions
 8. Others
 9. Don’t Know
+    
 **_Insight:_** This clear mismatch between actual and perceived sources of air pollution reveals a significant lack of public awareness.
 #### Supporting Data on Emission Sources
 **Vehicle Ownership (BPS 2020–2022):**
@@ -62,4 +63,29 @@ Katadata (Public Perception Survey) shows the public believes air pollution is p
 - The most common method among the public is open burning, a major contributor to air pollution.
 **Forest Fire Data (2019–2022)**
 According to GlobalForestWatch, more than 25,000 hectares are affected by forest fires annually in Indonesia.
-### Climate Change Awareness Survey
+
+#### Climate Change Awareness Survey
+_Source: Data for Good at Meta and Yale Program on Climate Change Communication (2022)_
+-Public Knowledge on Climate Change
+  - Little knowledge: 50.2%
+  - A lot: 16.5%
+  - Never heard of it: 15.6%
+- Cause Perception: Most respondents believe climate change is caused by both human activity and nature.
+- Perceived Severity: Majority say the impact is moderate.
+- Global Perception: Surveyed countries (South Africa, South America, Australia, Brazil, China, India) agree that environmental issues pose serious problems. Only India and USA indicated that environmental protection is not a top priority.
+  
+#### PM2.5 Air Quality Data (Jan–Aug 2023)
+_Location: Ancol, Angkasa Kemayoran, Regatta The Icon, Galur, LTC Glodok_
+- PM2.5 levels have shown a sharp increase in the past eight months.
+- Urgent action is required to curb this rise.
+
+### Proposed Solution: Breathify
+Breathify is a mobile application designed as a community engagement tool to tackle air pollution through behavioral change and awareness-building.
+
+Key features:
+- EcoPoint: A reward-based program to incentivize environmentally friendly actions.
+- EcoChallenge: Actionable challenges to promote real-world change.
+- EcoLearn: Educational resources to improve public understanding of environmental issues.
+- Ecommunity: A platform to connect users with a like-minded environmental community.
+
+Impact Goal: To bridge the gap between environmental knowledge and action, empowering individuals to contribute actively to pollution reduction and climate resilience.
